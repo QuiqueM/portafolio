@@ -62,6 +62,22 @@ p {
 	color: white;
 	background-color: crimson;
 }
+.enlaces {
+	display: inline-block;
+	padding: 10px 10px;
+	color: white;
+	background-color: transparent;
+	border: 2px solid crimson;
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	transition: .3s ease;
+	transition-property: background-color, color;
+}
+.enlaces:hover {
+	color: white;
+	background-color: crimson;
+}
 .brand h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
@@ -589,8 +605,21 @@ p {
 }
 /* End Keyframes */
 
+/* for mobile*/
+@media only screen and (min-width: 368px) {
+	
+	#services .service-bottom{
+		display: block;
+	}
+	/* Services Section */
+	#services .service-bottom .service-item {
+		flex-basis: 45%;
+		margin: 1.5%;
+	}
+	/* End Services Section */
+}
 /* Media Query For Tablet */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
 	.cta {
 		font-size: 2.5rem;
 		padding: 20px 60px;
@@ -604,11 +633,13 @@ p {
 		font-size: 7rem;
 	}
 	/* End Hero */
-
+	#services .service-bottom{
+		display: block;
+	}
 	/* Services Section */
 	#services .service-bottom .service-item {
 		flex-basis: 45%;
-		margin: 2.5%;
+		margin: 1.5%;
 	}
 	/* End Services Section */
 
