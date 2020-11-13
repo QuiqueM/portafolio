@@ -606,7 +606,7 @@ p {
 /* End Keyframes */
 
 /* for mobile*/
-@media only screen and (min-width: 368px) {
+@media only screen and (min-width: 360px) {
 	
 	#services .service-bottom{
 		display: block;
@@ -619,7 +619,7 @@ p {
 	/* End Services Section */
 }
 /* Media Query For Tablet */
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
 	.cta {
 		font-size: 2.5rem;
 		padding: 20px 60px;
