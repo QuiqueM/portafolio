@@ -726,7 +726,7 @@ p {
 /* End Media Query For Tablet */
 
 /* Media Query For Desktop */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
 	/* header */
 	#header .hamburger {
 		display: none;
@@ -748,9 +748,11 @@ p {
 		display: none;
 	}
 	/* End header */
-
+	#services .service-bottom{
+		display: inline-flex;
+	}
 	#services .service-bottom .service-item {
-		flex-basis: 22%;
+		flex-basis: 40%;
 		margin: 1.5%;
 	}
 }
