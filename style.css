@@ -4,6 +4,7 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
 html {
 	font-size: 10px;
 	font-family: 'Montserrat', sans-serif;
@@ -607,6 +608,9 @@ p {
 
 /* for mobile*/
 @media only screen and (min-width: 360px) {
+	body{
+		overflow-x: hidden;
+	}
 	
 	#services .service-bottom{
 		display: block;
